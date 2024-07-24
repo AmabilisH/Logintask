@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block main %}
+<table>
+  <tbody>
+    <tr>
+      <th>Nombre de usuario</th>
+      <td>{{ user.username }}</td>
+    </tr>
+    <tr>
+      <th>Dirección de correo electrónico</th>
+      <td>{{ user.email }}</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>{{ user.age }}</td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}
